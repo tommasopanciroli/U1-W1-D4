@@ -1,0 +1,11 @@
+header menu {
+    /* selettore di DISCENDENZA */
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+li .fas {
+    /* selezioniamo tutti gli elementi con classe fas dentro un li */
+    margin-right: 0.25em;
+}
