@@ -8,4 +8,5 @@ header menu {
 li .fas {
     /* selezioniamo tutti gli elementi con classe fas dentro un li */
     margin-right: 0.25em;
+    color: black;
 }
