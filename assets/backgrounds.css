@@ -1,0 +1,51 @@
+h1 {
+    font-size: 2em;
+    font-weight: bold;  
+   /* 700px circa, grassetto */
+    margin-bottom: 0.5em;
+    text-align: center;
+    text-transform: uppercase;
+    /* porto il testo in maiuscolo */
+}
+
+/* section > div:first/nth(1.2.3)/last-of-type */
+/* per poter selezionare gli elementi senza id */
+
+section > div {
+    border: 1px solid black;
+    margin-left: 1em;
+}
+
+#box1 {
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    margin-left: 1em;
+    /* assegno un'immagine perfettamente compatibile */
+    background-image: url(https://placedog.net/300/200);
+    box-shadow: 23px 22px 26px 5px #9A38FF;
+}
+
+#box2 {
+    /* in questoo caso l'immagino rettanoglare deve entrare nel box quadrato più grande */
+    width: 400px;
+    height: 400px;
+    background-image: url(https://placedog.net/300/200);
+    /* evito che l'immagine si moltiplichi perchè più piccola del contenitore */
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-position: center;
+    box-shadow: 23px 22px 26px 5px #9A38FF;
+    margin: 2em;
+}
+
+#box3 {
+    /* in questo caso l'immagine deve entrare nel box rettangolare più piccola */
+    width: 200px;
+    height: 250px;
+    background-image: url(https://placedog.net/600/600);
+    background-size: cover;
+    background-position: 26% 35%;
+    box-shadow: 23px 22px 26px 5px #9A38FF;
+}
